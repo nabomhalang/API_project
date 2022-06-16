@@ -3,6 +3,7 @@ import style from "../styles/Home.module.css";
 
 export default function Movie({ data, error }) {
   return (
+    
     <div className='container'>
       <Seo title='Home' />
       {!data && <h4>Loading...</h4>}
